@@ -1,0 +1,19 @@
+# Ignore datasets
+captcha-images/
+char-images-*/
+
+# Ignore libraries installed locally
+imutils/
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore model weights and large binary files
+*.h5
+*.pth
+*.pkl
+
+# Ignore system files
+.DS_Store
